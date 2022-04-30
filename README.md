@@ -48,7 +48,7 @@ use
 @ViewChild('serverContentInput', {static: true}) serverContentInput: ElementRef;
 
 ## Lifecycle hooks
-ngOnChanges: Called after a bound input property changes (e.g. properties decoreated with @Input)
+ngOnChanges: Called after a bound input property changes (e.g. properties decoreated with @Input) (called before ngOnInit). The Simple changes object holds the present and previous values of the change.
 
 ngOnInit: Executes when the component is initiaised (not rendered in the dom yet ). Object was created basically. Runs After the constructor has been called
 
