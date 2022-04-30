@@ -52,7 +52,7 @@ ngOnChanges: Called after a bound input property changes (e.g. properties decore
 
 ngOnInit: Executes when the component is initiaised (not rendered in the dom yet ). Object was created basically. Runs After the constructor has been called
 
-ngDoCheck: Runs multiple times for change detection (change in property/template etc.)
+ngDoCheck: Runs multiple times for change detection (change in property/template etc.) (In development there is an extra call while starting the application)
 
 ngAfterContentInit: Called after content (ng-content) has been projected into view.
 
