@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## ng-content
+Anything between component opening and closing tags (<app></app>) is get lost.
+If we want to inject a fragment of html template into child component from parent component, one can use ng-content inside child and specify template in parent with component tags
