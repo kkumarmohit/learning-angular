@@ -11,3 +11,12 @@ p {
 component itself (and not apply it globally - say a css property to p html element)
 It does this by assigning a unique add on to css elements which makes each
 element of a component unique w.r.t to other element of an another component */
+
+/* In Angular 8+, the @ViewChild() syntax which you'll see in the next lecture needs to be changed slightly:
+
+Instead of:
+
+@ViewChild('serverContentInput') serverContentInput: ElementRef;
+use
+
+@ViewChild('serverContentInput', {static: true}) serverContentInput: ElementRef; */
