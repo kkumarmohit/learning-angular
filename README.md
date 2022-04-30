@@ -63,3 +63,6 @@ ngAfterViewInit: Called after the components view (and child views) has been ini
 ngAfterViewChecked: Called every time the view (and child views) have been checked
 
 ngOnDestroy: called once the component is about to be destroy
+
+## Content Child
+Passing the content from parent to child through @ContentChild decorator
