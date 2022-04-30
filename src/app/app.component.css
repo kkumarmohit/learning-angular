@@ -6,7 +6,8 @@ p {
   color: blue;
 }
 
-/* Angular restricts the css defined with respect to a component to the 
+/* VIEW ENCAPSULATION
+ Angular restricts the css defined with respect to a component to the 
 component itself (and not apply it globally - say a css property to p html element)
 It does this by assigning a unique add on to css elements which makes each
 element of a component unique w.r.t to other element of an another component */
