@@ -66,3 +66,8 @@ ngOnDestroy: called once the component is about to be destroy
 
 ## Content Child
 Passing the content from parent to child through @ContentChild decorator
+
+## Directives
+Attribute directive (AD) affects only the element they are added to while structural directive (SD) affect the area of DOM
+AD looks like normal html attribute while SD have a leading *.
+
